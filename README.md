@@ -1,5 +1,5 @@
 # json-to-jsonl-cli
-This package extends the (json-to-jsonl package)[https://github.com/dan-kwiat/json-to-jsonl] to provide an easy-to-use CLI for its functionality.
+This package extends the [json-to-jsonl package](https://github.com/dan-kwiat/json-to-jsonl) to provide an easy-to-use CLI for its functionality.
 
 ## Install
 ```
