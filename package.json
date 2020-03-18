@@ -1,0 +1,22 @@
+{
+  "name": "json-to-jsonl-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThatOneBro/json-to-jsonl-cli.git"
+  },
+  "author": "Derrick Farris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThatOneBro/json-to-jsonl-cli/issues"
+  },
+  "homepage": "https://github.com/ThatOneBro/json-to-jsonl-cli#readme",
+  "dependencies": {
+    "json-to-jsonl": "git+https://github.com/ThatOneBro/json-to-jsonl.git#master"
+  }
+}
