@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { existsSync, closeSync, openSync } = require('fs');
 const path = require('path');
 const jsonl = require('json-to-jsonl');
