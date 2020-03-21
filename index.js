@@ -19,7 +19,7 @@ if (!existsSync(filename)) {
 }
 
 // Try to catch files with invalid format
-if (!filename.match(/.json$/)) {
+if (!filename.match(/\.json$/)) {
   console.log('Please provide a valid JSON file with the appropriate `.json` extension in the filename.');
   process.exit(1);
 }
@@ -32,7 +32,7 @@ const fullPath = path.join(process.cwd(), filename);
 // If it exists, check if overwrite (w+) argument was given
 // If it doesn't exist or it's defined and not equal to w+,
 // Then exit and tell user to use the w+ tag if they want to overwrite existing files
-const newFile = fullPath.replace(/.json$/, '.jsonl');
+const newFile = fullPath.replace(/\.json$/, '.jsonl');
 if (existsSync(newFile) && process.argv[3] !== 'w+') {
   console.log('A JSONL file with the given filename already exists. If you want to overwrite, issue same command with `w+` tag at the end.');
   process.exit(1);
